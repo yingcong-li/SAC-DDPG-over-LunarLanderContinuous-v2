@@ -9,7 +9,7 @@ from torch.utils.tensorboard import SummaryWriter
 import datetime
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument('--type', type=str, default='DDPG', help="The filename of model")
+parser.add_argument('--type', type=str, default='DDPG', help="The type of RL model")
 args = parser.parse_args()
 
 Tensor = torch.DoubleTensor
